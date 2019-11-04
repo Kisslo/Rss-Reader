@@ -1,0 +1,9 @@
+C:\Users\root\source\repos\Podden\Podden\bin\Debug\Podden.exe.config
+C:\Users\root\source\repos\Podden\Podden\bin\Debug\Podden.exe
+C:\Users\root\source\repos\Podden\Podden\bin\Debug\Podden.pdb
+C:\Users\root\source\repos\Podden\Podden\obj\Debug\Podden.csprojAssemblyReference.cache
+C:\Users\root\source\repos\Podden\Podden\obj\Debug\Podden.Properties.Resources.resources
+C:\Users\root\source\repos\Podden\Podden\obj\Debug\Podden.csproj.GenerateResource.cache
+C:\Users\root\source\repos\Podden\Podden\obj\Debug\Podden.exe
+C:\Users\root\source\repos\Podden\Podden\obj\Debug\Podden.pdb
+C:\Users\root\source\repos\Podden\Podden\obj\Debug\Podden.PL.PodcastForm.resources
