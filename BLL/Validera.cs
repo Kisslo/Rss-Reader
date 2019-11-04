@@ -25,18 +25,18 @@ namespace Podden.BLL
             }
         }
 
-        //public static bool KollaKategori(string kategori)
-        //{
-        //    var lista = KategoriLista.hamtaLista();
-        //    foreach (var kat in lista)
-        //    {
-        //        if (kat.KategoriTitel.Equals(kategori))
-        //        {
-        //            return false;
-        //        }
-        //    }
-        //    return true;
-        //}
+        public static bool KollaKategori(string kategori)
+        {
+            var lista = KategoriLista.hamtaLista();
+            foreach (var kat in lista)
+            {
+                if (kat.KategoriTitel.Equals(kategori))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
 
         public static bool kollaOmUrlRedanFinns(string url)
         {

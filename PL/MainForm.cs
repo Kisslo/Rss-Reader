@@ -203,12 +203,12 @@ namespace Podden.PL
                 System.Windows.Forms.MessageBox.Show("Textfältet får ej vara tomt");
                 return;
             }
-            //if (!Validera.KollaKategori(tbKategoriText))
-            //{
-            //    System.Windows.Forms.MessageBox.Show(tbKategoriText +
-            //        " finns redan");
-            //    return;
-            //}
+            if (!Validera.KollaKategori(tbKategoriText))
+            {
+                System.Windows.Forms.MessageBox.Show(tbKategoriText +
+                    " finns redan");
+                return;
+            }
 
             Kategori kategori = new Kategori(tbKategoriText);
             KategoriLista.laggTill(kategori);
